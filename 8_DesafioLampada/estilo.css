@@ -1,0 +1,101 @@
+@import url('https://fonts.cdnfonts.com/css/bolgart');
+@import url('https://fonts.cdnfonts.com/css/tt-wellingtons-trl');
+@import url('https://fonts.cdnfonts.com/css/sticky-memos');
+
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+header img{
+    padding: 10px;
+}
+
+section{
+    margin-right: 290px;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 0px;
+}
+
+section h1{
+    font-family: 'Sticky Memos', sans-serif;
+    font-size:60px;
+                                                
+}
+    
+
+
+#botaoon{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    font-family: 'TT Wellingtons Trl', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;                                          
+}
+
+#botaoof{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    font-family: 'TT Wellingtons Trl', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+}
+
+#botaoreset{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    font-family: 'TT Wellingtons Trl', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+}
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+
+        body{
+            background-size: unset;
+            background-repeat: repeat;
+        }
+
+        section{
+            width: 100%;
+        }
+    }
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-size: unset;
+        background-repeat: repeat;
+    }
+
+    section{
+        width: 100%;
+    }
+      }
